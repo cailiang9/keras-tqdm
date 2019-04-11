@@ -2,8 +2,8 @@ from sys import stderr
 
 import numpy as np
 import six
-from keras.callbacks import Callback
-from tqdm import tqdm
+from tensorflow.keras.callbacks import Callback
+from tqdm.auto import tqdm
 
 
 class TQDMCallback(Callback):
